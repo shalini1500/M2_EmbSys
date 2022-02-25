@@ -53,7 +53,7 @@ This large amount of increasing pollution has made human life prone to large num
 
 * Blynk app
 # Applications 
-* By using this project, we can monitor the readings of air and sound pollution levels in a particular area and we can take measures accordingly when the value exceeds.This IOT based air and noise pollution monitoring system project is a great step towards a healthy livelihood. With the help of this project not only the municipal authorities but even the common people can participate in the process of controlling pollution and ensure safe environment.
+* 
 
 
 
