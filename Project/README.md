@@ -34,7 +34,33 @@ This large amount of increasing pollution has made human life prone to large num
 ------------------|-------------------
 |LL01     | The projector should have low power consumption |
 |LL02   | The projector must not get overheated |
+## SWOT Analysis
+* Strengths
+    * Monitors air quality in atmosphere.
+    
+* Weakness
+    * Sensitive to some gases like ethane,ozone.
+* Opportunity 
+   * Tracking and determine the air quality.
+* Threats
+   * Due to sensitivity the gas sensor may  explode.
+## 4 W's and 1 H
+ # Who
+  * Industries.
+  # What
+     * Monitors air quality.
+  # When
+  * If thershold level is exceeded then the corresponding action will be like led on and message  in lcd display . 
+  # Where
+      * In city roads traffic noise.
+      * Activities like shooting, open air events, football and cricket matches.
 
 # Applications 
 * To estimate the pollution.  
-* Indoor Air Quality Monitoring.  
+* Indoor Air Quality Monitoring.
+* To design server and upload data on that server with date and time.
+*  We can use it at industrial area as there is lot of noise pollution
+*  In city roads traffic noise.
+*  Activities like shooting, open air events, football and cricket matches.
+*  At small level, in schools and colleges we can use this device.
+*   Automation Automation.  
