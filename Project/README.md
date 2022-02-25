@@ -54,6 +54,8 @@ This large amount of increasing pollution has made human life prone to large num
   # Where
       * In city roads traffic noise.
       * Activities like shooting, open air events, football and cricket matches.
+  
+  
 
 # Applications 
 * To estimate the pollution.  
