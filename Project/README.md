@@ -57,6 +57,7 @@ This large amount of increasing pollution has made human life prone to large num
   
   
 
+
 # Applications 
 * To estimate the pollution.  
 * Indoor Air Quality Monitoring.
