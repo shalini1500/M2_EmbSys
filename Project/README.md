@@ -10,11 +10,16 @@ The counting direction is always up (incrementing), and no counter clear isperfo
 TCNT0 becomes zero. The TOV0 Flag in this case behaves like a ninth bit, except that it is only set, not cleared. However, combined with the timer overflow interrupt that automatically clears the TOV0 Flag, the timer resolution can be increased by software. A new counter value can be written anytime. 
 
 
-# components
-* 7 Segment display.
+# Components
+* 7 Segment display
+   * The 7-segment display consists of seven LEDs arranged in a particular fashion in order to exhibit Decimal integers (0 – 9) & Hexadecimal characters (0 – F). Each of the seven LEDs is called a segment because when illuminated the segment forms part of a numerical digit.
 * lcd display
+      * LCD (Liquid Crystal Display) is a type of flat panel display which uses liquid crystals in its primary form of operation.It helps to monitor time and set alarm .
 * atmega128
-* aurdino uno
+       * ATmega328P is a low-power CMOS 8-bit microcontroller based on the AVR enhanced RISC architecture. The ATmega328P achieves throughputs approaching 1MIPS per MHz By executing powerful instructions in a single clock cycle. This allows system designers to optimize power consumption versus processing speed very easily. ATMega328p is one of the famous MCUs of Atmel because of its use in the Arduino UNO board. ATmega328P is designed with low current consumption features. The chip contains 32 kilobytes of internal flash memory, 1KB of EEPROM, and 2KB of SRAM.
+* aurdino uno 
+     * Arduino UNO is a low-cost, flexible, and easy-to-use programmable open-source microcontroller board.It provides interface with lcd display.
+
 ## HIGH LEVEL REQUIREMENT
 |Test ID  |    Description  |  
 -------------|-----------------------------------
@@ -50,7 +55,7 @@ TCNT0 becomes zero. The TOV0 Flag in this case behaves like a ninth bit, except 
   * daily routine purposes, experimental purposes. 
   # Where
       * Useful to everyone and everywhere.
-   ## Components
+   ## Mode of operation
    * Digital clock operation using ATmega328, an AVR Processor based microcontroller unit
 
 *   You can use a digital clock, stopwatch, alarm, down count timer, and calculator
