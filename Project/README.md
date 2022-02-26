@@ -55,6 +55,8 @@ TCNT0 becomes zero. The TOV0 Flag in this case behaves like a ninth bit, except 
   * daily routine purposes, experimental purposes. 
   # Where
       * Useful to everyone and everywhere.
+  # How 
+     * Implementation of clock and setting alarm for specific time.
    ## Mode of operation
    * Digital clock operation using ATmega328, an AVR Processor based microcontroller unit
 
