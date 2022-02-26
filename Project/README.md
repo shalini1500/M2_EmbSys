@@ -1,6 +1,6 @@
 # Digital Clock 
 # Aim of project
-* Designing a 7-digit digital clock using 7-sevensegment display, Atmega328P AVR microcontrollerand programming.
+* Designing a 7-digit digital clock using 7-sevensegment display, Atmega338 AVR microcontrollerand programming.
 # Introduction-
 A digital clock is a type of clock that displaysthe time numerically (i.e. in numerals), where as ananalog clock, displays the time by the positions of rotating hands.To represent the time, most digital clocks use aseven-segment LED or LCD for each of desireddigits. They also used other elements to indicatewhether the time is AM or PM, or simply use 12or 24 hour format. Some of the digital clock hasalarm function also. Now a days, they also includedate and day display.A digital clock is a type of clock that displays the time digitally, i.e. in numerals orother symbols, as opposed to an analog clock, where the time is indicated by the
 positions of rotating hands.
@@ -50,6 +50,24 @@ TCNT0 becomes zero. The TOV0 Flag in this case behaves like a ninth bit, except 
   * daily routine purposes, experimental purposes. 
   # Where
       * Useful to everyone and everywhere.
+   ## Components
+   * Digital clock operation using ATmega328, an AVR Processor based microcontroller unit
+
+*   You can use a digital clock, stopwatch, alarm, down count timer, and calculator
+
+• Designed the Atmega128 Board and wrote the software programs in C language
+
+• The Board had Atmega128 Micro Controller, 7-Segment, SN74LS47, Resistor, Diode, 7805 Regulator, Capacitor, LED, Button, and Buzzer
+
+• Mode 0 (Digital Clock): The most basic purpose is a digital clock using a timer. 7-segment is 10min, min, 10s, 1s, 10ms. It is arranged in order of 1ms, and the time is counted
+
+• Mode1 (StopWatch): This function records the time and includes the Lap_time. The stopwatch function turns on the LED and counts from 1s. Use switch2 and 3 to count the numbers
+
+• Mode2 (Alarm): Sets the alarm of the digital clock. After setting the time using switch2 and 3 as the alarm function, the buzzer sounds when the timer reaches mode 0
+
+• Mode3 (Down Count Timer): Timer to count down from the set time to 0. If you set the time using switch2 and 3 as the DownCounter, the buzzer will sound when the count goes down to 00
+
+• Mode4 (Calculator): A calculator performs arithmetic operations. Enter two digits using switch2 and 3 to achieve the desired arithmetic operation with switch6
   
   
 
