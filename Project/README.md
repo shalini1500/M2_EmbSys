@@ -1,33 +1,27 @@
-# Air Pollution Monitoring System
+# Digital Clock 
+# Aim of project
+* Designing a 7-digit digital clock using 7-sevensegment display, Atmega328P AVR microcontrollerand programming.
 # Introduction-
-The growing air and sound pollution is one of the serious issues these days. 
-This large amount of increasing pollution has made human life prone to large number of diseases.
-* The main objectives of  project are The growing air and sound pollution is one of the serious issues these days,To display the readings in the led  and in LCD,If threshold value gets exceeded, the led  will give confirmation.
+A digital clock is a type of clock that displaysthe time numerically (i.e. in numerals), where as ananalog clock, displays the time by the positions of rotating hands.To represent the time, most digital clocks use aseven-segment LED or LCD for each of desireddigits. They also used other elements to indicatewhether the time is AM or PM, or simply use 12or 24 hour format. Some of the digital clock hasalarm function also. Now a days, they also includedate and day display.A digital clock is a type of clock that displays the time digitally, i.e. in numerals orother symbols, as opposed to an analog clock, where the time is indicated by the
+positions of rotating hands.
 #   Working  
-* Switching on the power supply, all the components become active.
+The counting direction is always up (incrementing), and no counter clear isperformed. The counter simply overruns when it passes its maximum 8-bit value
+(MAX = 0xFF) and then restarts from the bottom (0x00). In normal operation theTimer/Counter Overflow Flag (TOV0) will be set in the same timer clock cycle as the
+TCNT0 becomes zero. The TOV0 Flag in this case behaves like a ninth bit, except that it is only set, not cleared. However, combined with the timer overflow interrupt that automatically clears the TOV0 Flag, the timer resolution can be increased by software. A new counter value can be written anytime. 
 
-* Gas sensor and sound sensor start to monitor continuously.
 
-* If the air pollution level is exceeded beyond threshold value, the led will be one and display the air measurement in lcd.
-* The readings will be displayed on LCD .
 # components
-* Gas Sensor(MQ135)
-*  Nodemcu (ESP-8266)
- 
-* Aurdino Nano 
- 
-* LCD Display(16 X 2)
- 
-* LED
-
-* Transistor
+* 7 Segment display.
+* lcd display
+* atmega128
+* aurdino uno
 ## HIGH LEVEL REQUIREMENT
 |Test ID  |    Description  |  
 -------------|-----------------------------------
-|HL01     |    Sense the enivronment | 
-|HL02     |    Immediate response of monitoring air quality         |
-|HL03     |    Hiher response time    |
-|HL04     |    environment must to able to detect the air qualty  |
+|HL01     |    helps to set alarm | 
+|HL02     |    continous monitoring         |
+|HL03     |    Higher response time  |
+|HL04     |    Easy accessing time  |
 |HL05     |    The projector must be able to store information or data |
 ## Low Level Requirement
 |Test ID   |  Description | 
@@ -36,34 +30,35 @@ This large amount of increasing pollution has made human life prone to large num
 |LL02   | The projector must not get overheated |
 ## SWOT Analysis
 * Strengths
-    * Monitors air quality in atmosphere.
+    * continous monitor of time 
     
 * Weakness
-    * Sensitive to some gases like ethane,ozone.
+    * Sensitive materials need to update more for high level puposes.
 * Opportunity 
-   * Tracking and determine the air quality.
+   * To sophiticated people and common people to perform daily routine.
+   * for scientists can set alarm for performing projects.
+   
 * Threats
-   * Due to sensitivity the gas sensor may  explode.
+   * Due to sensitivity there may be a threat.
 ## 4 W's and 1 H
  # Who
-  * Industries.
+  * to all people: common people, scientists.
   # What
-     * Monitors air quality.
+     * Monitors time continously.
+     * useful to set alarm.
   # When
-  * If thershold level is exceeded then the corresponding action will be like led on and message  in lcd display . 
+  * daily routine purposes, experimental purposes. 
   # Where
-      * In city roads traffic noise.
-      * Activities like shooting, open air events, football and cricket matches.
+      * Useful to everyone and everywhere.
   
   
 
 
 # Applications 
-* To estimate the pollution.  
-* Indoor Air Quality Monitoring.
-* To design server and upload data on that server with date and time.
-*  We can use it at industrial area as there is lot of noise pollution
-*  In city roads traffic noise.
-*  Activities like shooting, open air events, football and cricket matches.
-*  At small level, in schools and colleges we can use this device.
-*   Automation Automation.  
+*  cars
+*  radios
+*  televisions,
+*  microwave ovens
+*   standard ovens
+*   computers 
+*  cell phones.  
