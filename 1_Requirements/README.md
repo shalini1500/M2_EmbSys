@@ -21,6 +21,32 @@ This large amount of increasing pollution has made human life prone to large num
 * LED
 
 * Transistor
+## SWOT Analysis
+* Strengths
+    * create a data to vaccinate people based on their aadhar card.
+    * Recorded data is sent to main central database for future reference.
+* Weakness
+    * Aadhar card link to mobile no is not available.
+    * OTP is generated for verification.
+* Opportunity 
+   * Tracking and determine the vaccinate people.
+* Threats
+   * the personal data of people are required has there is no proper end to end encryption , there are some security problems.
+## 4 W's and 1 H
+ # Who
+  * Industries and household workers to keep check the air quality and take appropriate action.
+  # What
+     * sensing air quality in atmosphere and display in lcd.
+  # When
+  * Industries releasing gases through chimney or it useful to anywhere to check the air quality.
+  # Where
+      * Industries.
+      * To estimate the pollution.  
+      * Indoor Air Quality Monitoring.  
+
+# How
+ * Sensing a particular gas using mq135 gas sensor and the values will be displaying in lcd by this we can reduce air pollution.
+
 ## HIGH LEVEL REQUIREMENT
 |Test ID  |    Description  |  
 -------------|-----------------------------------
@@ -37,7 +63,7 @@ This large amount of increasing pollution has made human life prone to large num
 
 # Applications 
 * To estimate the pollution.  
-* ndoor Air Quality Monitoring.  
+* Indoor Air Quality Monitoring.  
 
 
 
