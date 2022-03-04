@@ -23,15 +23,14 @@ This large amount of increasing pollution has made human life prone to large num
 * Transistor
 ## SWOT Analysis
 * Strengths
-    * create a data to vaccinate people based on their aadhar card.
-    * Recorded data is sent to main central database for future reference.
+    * Analysis of air quality of various gases is done accurately.
 * Weakness
-    * Aadhar card link to mobile no is not available.
-    * OTP is generated for verification.
+    * Gas sensor is sensitive for gases like alcohol,ch4 etc.,
+    
 * Opportunity 
-   * Tracking and determine the vaccinate people.
+   * sensing the air quality and taking appropriate action.
 * Threats
-   * the personal data of people are required has there is no proper end to end encryption , there are some security problems.
+   * Due to sensitivity of gas sensor there may  be breakage.
 ## 4 W's and 1 H
  # Who
   * Industries and household workers to keep check the air quality and take appropriate action.
