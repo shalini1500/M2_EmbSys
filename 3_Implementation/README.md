@@ -11,7 +11,7 @@
 *   The third layer was the decision making, sensing, measuring, fixing of the threshold valve, periodicity of sensitivity, timing and space. 
 *   The fourth layer was the sensor data acquisition. The fifth layer was the ambient intelligence environment.
 *    The sensor collected data when operated by the microcontroller and forwarded it over the internet for analysis via the Wi-Fi module.
-*     Users were able to monitor measured parameters on their smartphones.
+*   Users were able to monitor measured parameters on their smartphones.
 
 
 
