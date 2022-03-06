@@ -1,6 +1,10 @@
 # M2_EmbSys
 # code badges 
 
+
+[![CI](https://github.com/shalini1500/M2_EmbSys/actions/workflows/blank.yml/badge.svg)](https://github.com/shalini1500/M2_EmbSys/actions/workflows/blank.yml)
+
+
  # Aim
   * Air pollution affects our day to day activities and quality of life. It poses a threat to the ecosystem and the quality of life on the planet.
   *  The dire need to monitor air quality is very glaring, owing to increased industrial activities over the past years. People need to know the extent to which their activities affect air quality. 
